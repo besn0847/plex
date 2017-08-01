@@ -20,4 +20,5 @@ RUN chmod +x /startup.sh \
 EXPOSE 32400
 
 WORKDIR /root
-#ENTRYPOINT ["/startup.sh"]
+
+ENTRYPOINT ["/startup.sh"]

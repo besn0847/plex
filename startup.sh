@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usr/sbin/start_pms --serverUuid 0
+PLEX_MEDIA_SERVER_USER=root /usr/sbin/start_pms
